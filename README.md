@@ -1,4 +1,3 @@
-Here's a comprehensive README file for your notebook, explaining everything from opening the notebook to understanding the code. Make sure to adjust any paths or URLs according to your specific setup.
 
 ---
 
