@@ -295,21 +295,22 @@ plot_results(results_resnet50)
 
 Here's a comparison table summarizing the results of the three models: Vision Transformer (ViT) with and without freezing parameters, and ResNet50. The metrics include training and test loss, accuracy, precision, recall, and F1 score.
 
+Based on the provided results for the ResNet50 model at epoch 9/10, here is the updated comparison table:
+
 ## Model Comparison Table
 
-| Metric               | ViT (No Freeze) | ViT (Freeze) | ResNet50       |
-|----------------------|------------------|--------------|----------------|
-| **Training Loss**    | [Value]           | [Value]       | [Value]        |
-| **Test Loss**        | [Value]           | [Value]       | [Value]        |
-| **Training Accuracy**| [Value]           | [Value]       | [Value]        |
-| **Test Accuracy**    | [Value]           | [Value]       | [Value]        |
-| **Training Precision**| [Value]           | [Value]       | [Value]        |
-| **Test Precision**   | [Value]           | [Value]       | [Value]        |
-| **Training Recall**  | [Value]           | [Value]       | [Value]        |
-| **Test Recall**      | [Value]           | [Value]       | [Value]        |
-| **Training F1 Score**| [Value]           | [Value]       | [Value]        |
-| **Test F1 Score**    | [Value]           | [Value]       | [Value]        |
-
+| Metric               | ViT (No Freeze) | ViT (Freeze)    | ResNet50       |
+|----------------------|------------------|-----------------|----------------|
+| **Training Loss**    | 0.8531           | 0.4897          | 1.3127         |
+| **Test Loss**        | 0.7471           | 0.4047          | 1.3157         |
+| **Training Accuracy**| 0.6584           | 0.8009          | 0.3633         |
+| **Test Accuracy**    | 0.7038           | 0.8361          | 0.3554         |
+| **Training Precision**| 0.6439           | 0.7909          | [Value]        |
+| **Test Precision**   | 0.7119           | 0.8300          | [Value]        |
+| **Training Recall**  | 0.6584           | 0.8008          | [Value]        |
+| **Test Recall**      | 0.7047           | 0.8373          | [Value]        |
+| **Training F1 Score**| 0.6350           | 0.7928          | [Value]        |
+| **Test F1 Score**    | 0.6943           | 0.8266          | [Value]        |
 
 
 ### Conclusion
