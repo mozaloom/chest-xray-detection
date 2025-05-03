@@ -1,8 +1,16 @@
-----
-
-Link of the dataset: https://drive.google.com/drive/folders/1aWknbDU42nxixYnX0EA0z6ocINk3Wqgp?usp=drive_link
-
-Kaggle: https://www.kaggle.com/datasets/jaberjaber/updatedxray/data
-
-@Mohammed Zaloom
-----
+fastapi==0.115.12
+uvicorn==0.34.2
+pydantic==2.11.4
+# CUDA-specific PyTorch packages - modify if using different CUDA version or CPU-only
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+python-multipart==0.0.20
+streamlit==1.45.0
+matplotlib==3.10.1
+# Dependencies
+numpy==2.1.2
+pillow==11.0.0
+anyio==4.9.0
+starlette==0.46.2
+typing_extensions==4.13.2
