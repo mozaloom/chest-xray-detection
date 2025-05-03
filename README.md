@@ -1,7 +1,7 @@
 # PulmoVision: Chest X-Ray AI Classifier
 
 PulmoVision is a deep learning system for automated classification of chest X-ray images. The system can detect and differentiate between COVID-19, bacterial pneumonia, viral pneumonia, and normal conditions using a Vision Transformer (ViT) neural network architecture.
-
+ 
 ## Features
 
 - Classification of chest X-rays into four categories: COVID-19, Normal, Bacterial Pneumonia, and Viral Pneumonia
